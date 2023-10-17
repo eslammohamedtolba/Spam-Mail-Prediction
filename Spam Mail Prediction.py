@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 
 # Load the dataset
-Mails_dataset = pd.read_csv("/content/mail_data.csv")
+Mails_dataset = pd.read_csv("mail_data.csv")
 # Show the first five columns in the dataset
 Mails_dataset.head()
 # Show the last five columns in the dataset
