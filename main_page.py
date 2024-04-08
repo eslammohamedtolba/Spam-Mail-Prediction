@@ -22,10 +22,7 @@ def index():
     else:
         return render_template('index.html',pred = -1)
 
-
-# 07732584351 - Rodger Burns - MSG = We tried to call you re your reply to our sms for a free nokia mobile + free camcorder. Please call now 08000930705 for delivery tomorrow
-# Didn't you get hep b immunisation in nigeria. -> ham
-
+# Run the app
 if __name__ == "__main__":
     app.run(debug=True)
 

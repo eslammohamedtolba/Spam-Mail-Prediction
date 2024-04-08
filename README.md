@@ -1,6 +1,6 @@
 # Spam-Mail-Prediction
 This is a Spam Mail prediction model that uses a logistic regression algorithm to classify emails as either spam or ham (non-spam).
-
+![image about the final project](<Spam Email prediction.png>)
 ## Prerequisites
 Before running the code, make sure you have the following dependencies installed:
 -Pandas
