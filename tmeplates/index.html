@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Spam Mail Prediction</title>
+</head>
+<body>
+    <div class="predprogram">
+        <p id="intro">Enter text for prediction:</p>
+        <form method="POST" id="prediction-form">
+            <input type="text" id="user-input" name="text" required>
+            <button type="submit">Predict</button>
+        </form>
+        <p id="prediction-result">
+            {% if pred == 1 %}
+                the mail is ham
+            {% elif pred == 0 %}
+                the mail is spam
+            {% endif %}
+        </p>
+    </div>
+</body>
+</html>
+

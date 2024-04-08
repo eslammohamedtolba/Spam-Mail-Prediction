@@ -1,0 +1,44 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(135, 135, 206);
+}
+.predprogram {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#intro {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+#prediction-form {
+    margin-bottom: 10px;
+}
+#prediction-form input {
+    width: 385px;    
+    height: 25px;
+    font-size: 20px;
+}
+#prediction-form button {
+    width: 85px;
+    height: 25px;
+    font-size: 18px;
+    background-color: lightcyan;
+    border-radius: 6px;
+}
+
+#prediction-result {
+    width: 390px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 0.5px black solid;
+    line-height: 47px;
+    padding-left: 7px;
+    font-size: 25px;
+}
