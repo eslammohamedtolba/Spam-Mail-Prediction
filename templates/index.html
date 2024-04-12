@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="predprogram">
-        <p id="intro">Enter text for prediction:</p>
-        <form method="POST" id="prediction-form">
+        <p id="intro">Enter email text for prediction:</p>
+        <form method="post" id="prediction-form" action="{{ url_for('predict') }}">
             <input type="text" id="user-input" name="text" required>
             <button type="submit">Predict</button>
         </form>

@@ -14,7 +14,8 @@ body {
 }
 #intro {
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 38px;
+    color: white;
 }
 #prediction-form {
     margin-bottom: 10px;
@@ -35,9 +36,10 @@ body {
 #prediction-result {
     width: 390px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    border: 0.5px black solid;
+    text-align: center;
+    font-size: 30px;
+    color: white;
     line-height: 47px;
     padding-left: 7px;
     font-size: 25px;

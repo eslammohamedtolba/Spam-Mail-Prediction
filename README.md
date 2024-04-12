@@ -35,6 +35,10 @@ Before running the code, make sure you have the following dependencies installed
 ## Model Accuracy
 The model has achieved an accuracy of 95% on the test data.
 
+## Flask App Structure
+- app.py: Contains Flask routes for rendering the web interface and handling predictions.
+- templates/: Directory with HTML templates for the web pages.
+- static/: Directory for static files as CSS.
 
 ## Contribution
 Contributions to this project are welcome. 
